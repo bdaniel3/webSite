@@ -1,0 +1,85 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+footer{
+  position: static
+}
+
+body {
+   background: linear-gradient(#ffffff,#E6B0AA);
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px pink;
+}
+
+h5 {
+  text-shadow: 2px 2px 5px purple;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30;
+}
+
+.card p {
+  padding: 15px;
+  text-align: left;
+}
+
+.col-md-6:nth-child(2) .card h1 {
+  padding: 20px; 
+  text-align: left; 
+}
+
+.col-md-6:nth-child(2) .card h5 {
+  padding: 15px;
+  text-align: left;
+}
+
+.card-brittney {
+  width: 490px;
+  height: 490px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: clear;
+}
+
+.card-brittney-body {
+  padding: 30px;
+}
+
+.bio {
+  text-align: left;
+}
+
+.links {
+  padding: 12px 0 16px 0;
+  background-color: #E6B0AA;
+  text-align: center;
+  width: 400px;
+}
+
+.links a {
+  padding: 14px 0 16px 0;
+  font-size: 15px;
+  color: #E6B0AA; 
+  
+}
+
+a:hover {
+  background-color: #f2d7d5;
+  text-decoration: underline;
+  color: #a9cce3;
+  font-weight: normal; 
+}
+
